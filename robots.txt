@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /Photos/
+# Disallow high-resolution images folder; remove or edit when hosting.
