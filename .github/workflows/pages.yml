@@ -34,6 +34,14 @@ jobs:
           npx tsc
           npx vite build
 
+      - name: Create additional HTML pages
+        run: |
+          for p in coding film photography modeling music; do
+            cp dist/index.html dist/${p}.html
+            # inject data-page attribute into body tag
+            sed -i "s/<body>/<body data-page=\"${p}\">/" dist/${p}.html
+          done
+
       - name: Configure git for deploy
         run: |
           git config --global user.name "github-actions[bot]"

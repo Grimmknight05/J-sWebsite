@@ -528,12 +528,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <header class="topbar">
       <p class="brand">DIGITAL PORTFOLIO</p>
       <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/coding.html">Coding</a>
-        <a href="/film.html">Film</a>
-        <a href="/photography.html">Photo</a>
-        <a href="/modeling.html">3D</a>
-        <a href="/music.html">Music</a>
+        <a href="./">Home</a>
+        <a href="coding.html">Coding</a>
+        <a href="film.html">Film</a>
+        <a href="photography.html">Photo</a>
+        <a href="modeling.html">3D</a>
+        <a href="music.html">Music</a>
       </nav>
     </header>
 
@@ -544,7 +544,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           <h1>${subject.title}</h1>
           <p>${subject.intro}</p>
           <div class="buttons">
-            <a class="button primary" href="/">Back home</a>
+            <a class="button primary" href="./">Back home</a>
           </div>
         </div>
 
@@ -566,7 +566,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <footer class="site-footer">
       <div class="page-footer">
         <p>© ${new Date().getFullYear()} Joshua Henrikson. All rights reserved.</p>
-        <p><a href="/">Home</a> · <a href="/coding.html">Coding</a> · <a href="/photography.html">Photography</a></p>
+        <p><a href="./">Home</a> · <a href="coding.html">Coding</a> · <a href="photography.html">Photography</a></p>
       </div>
     </footer>
   </div>

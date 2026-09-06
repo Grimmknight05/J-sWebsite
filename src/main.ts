@@ -6,11 +6,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <header class="topbar">
       <p class="brand">DIGITAL PORTFOLIO</p>
       <nav class="nav">
-        <a href="/coding.html">Coding</a>
-        <a href="/film.html">Film</a>
-        <a href="/photography.html">Photography</a>
-        <a href="/modeling.html">3D</a>
-        <a href="/music.html">Music</a>
+        <a href="coding.html">Coding</a>
+        <a href="film.html">Film</a>
+        <a href="photography.html">Photography</a>
+        <a href="modeling.html">3D</a>
+        <a href="music.html">Music</a>
       </nav>
     </header>
     <main>
@@ -22,7 +22,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </div>
 
         <div class="hero-visual">
-          <img class="hero-float" src="/Resources/Gifs/P1.gif" alt="PalmTree" />
+          <img class="hero-float" src="Resources/Gifs/P1.gif" alt="PalmTree" />
         </div>
 
 
@@ -33,10 +33,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           <div class="about-main">
             <div class="about-side">
               <div class="about-image-wrap">
-                <img src="/20260730_025211596_iOS.jpeg" alt="Josh standing in a Japanese street scene" />
+                <img src="20260730_025211596_iOS.jpeg" alt="Josh standing in a Japanese street scene" />
               </div>
               <div class="buttons about-buttons">
-                <a class="button primary" href="/coding.html">See my coding work</a>
+                <a class="button primary" href="coding.html">See my coding work</a>
                 
                 <a class="button link" href="https://linkedin.com/in/joshuahenrikson" target="_blank" rel="noopener">LinkedIn</a>
               </div>
@@ -59,49 +59,49 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <section id="work" class="card">
         <h2>Portfolio pages</h2>
         <div class="project-list">
-          <a class="project coding" href="/coding.html">
+          <a class="project coding" href="coding.html">
             <div class="project-copy">
               <h3>Coding Projects</h3>
               <p>Showcase of coding projects</p>
             </div>
             <div class="project-visual">
-              <img class="project-gif" src="/Resources/Gifs/C.gif" alt="Coding preview" />
+              <img class="project-gif" src="Resources/Gifs/C.gif" alt="Coding preview" />
             </div>
           </a>
-          <a class="project film" href="/film.html">
+          <a class="project film" href="film.html">
             <div class="project-copy">
               <h3>Documentary & Film</h3>
               <p>Documentary film work and edits</p>
             </div>
             <div class="project-visual">
-              <img class="project-gif" src="/Resources/Gifs/B3.gif" alt="Video preview" />
+              <img class="project-gif" src="Resources/Gifs/B3.gif" alt="Video preview" />
             </div>
           </a>
-          <a class="project photo" href="/photography.html">
+          <a class="project photo" href="photography.html">
             <div class="project-copy">
               <h3>Photography</h3>
               <p>Collections of some of my photography work</p>
             </div>
             <div class="project-visual">
-              <img class="project-gif" src="/Resources/Gifs/CS.gif" alt="Photography preview" />
+              <img class="project-gif" src="Resources/Gifs/CS.gif" alt="Photography preview" />
             </div>
           </a>
-          <a class="project modeling" href="/modeling.html">
+          <a class="project modeling" href="modeling.html">
             <div class="project-copy">
               <h3>3D Modeling</h3>
               <p>Blender scenes and 3D work</p>
             </div>
             <div class="project-visual">
-              <img class="project-gif" src="/Resources/Gifs/3Dex.gif" alt="3D preview" />
+              <img class="project-gif" src="Resources/Gifs/3Dex.gif" alt="3D preview" />
             </div>
           </a>
-          <a class="project music" href="/music.html">
+          <a class="project music" href="music.html">
             <div class="project-copy">
               <h3>Music</h3>
               <p>Original music and sound projects</p>
             </div>
             <div class="project-visual">
-              <img class="project-gif" src="/Resources/Gifs/G.gif" alt="Music preview" />
+              <img class="project-gif" src="Resources/Gifs/G.gif" alt="Music preview" />
             </div>
           </a>
         </div>
@@ -115,7 +115,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <footer class="site-footer">
         <div class="page-footer">
           <p>© ${new Date().getFullYear()} Joshua Henrikson. All rights reserved.</p>
-          <p><a href="/">Home</a> · <a href="/coding.html">Coding</a> · <a href="/photography.html">Photography</a></p>
+          <p><a href="./">Home</a> · <a href="coding.html">Coding</a> · <a href="photography.html">Photography</a></p>
         </div>
       </footer>
   </div>
