@@ -1,7 +1,13 @@
 import './style.css'
 import './protections'
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+const pageKey = document.body.dataset.page
+
+if (pageKey) {
+  // If an HTML page sets data-page, load the subject renderer to render that page
+  import('./subject-page')
+} else {
+  document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div class="page">
     <header class="topbar">
       <p class="brand">DIGITAL PORTFOLIO</p>
@@ -120,3 +126,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       </footer>
   </div>
 `
+}
