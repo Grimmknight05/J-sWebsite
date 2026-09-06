@@ -8,8 +8,9 @@ function applyImageProtections() {
       img.draggable = false;
       img.setAttribute('draggable', 'false');
       img.style.userSelect = 'none';
-      img.style.webkitUserSelect = 'none';
-      img.style.msUserSelect = 'none';
+      // Use setProperty for vendor-prefixed CSS to satisfy TypeScript typings
+      try { img.style.setProperty('-webkit-user-select', 'none'); } catch (e) { /* noop */ }
+      try { img.style.setProperty('-ms-user-select', 'none'); } catch (e) { /* noop */ }
       img.addEventListener('contextmenu', (e) => e.preventDefault());
       img.addEventListener('dragstart', (e) => e.preventDefault());
     } catch (err) {
