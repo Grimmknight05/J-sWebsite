@@ -4,6 +4,12 @@ on:
   push:
     branches: [ main ]
 
+# Ensure the workflow has explicit permissions to push to repo and Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -39,7 +45,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Prefer a personal token `GH_PAGES_PAT` (create this secret if your org blocks GITHUB_TOKEN pushes)
+          github_token: ${{ secrets.GH_PAGES_PAT || secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
           keep_files: false
