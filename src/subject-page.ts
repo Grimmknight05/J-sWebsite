@@ -96,8 +96,8 @@ const subjects: Record<SubjectKey, SubjectContent> = {
             summary: 'Developed and built out a complete website and backend infrastructure for a subscription-based service that had been awarded funding. Implemented a React frontend with a Supabase backend for account management and a Stripe payment integration, using webhooks to ensure synchronization, security, and component decoupling. <br><br> I leveraged AI-assisted development to maintain code quality and architectural best practices, prioritizing strong decoupling and high cohesion throughout the codebase. Achieved 90% code coverage through comprehensive testing, including backend unit tests, account creation and authentication flows, payment processing tests, and frontend UI stress tests using dummy subscription data. <br><br> - Key features implemented: include user signup and login, password reset via email, user information management, payment processing, and subscription cancellation—all with real-time synchronization between Stripe and Supabase servers to ensure account integrity. ',
             emailContact: '',
             images: [
-              { src: '/Photos/Website/S1.png', alt: 'Website Login Error' },
-              { src: '/Photos/Website/S2.png', alt: 'Website Signin Page' },
+              { src: 'Photos/Website/S1.png', alt: 'Website Login Error' },
+              { src: 'Photos/Website/S2.png', alt: 'Website Signin Page' },
             ],
             tags: ['Vite', 'TypeScript', 'Portfolio', 'react', 'Webhook', 'Git', 'Testing', 'Backend Development', 'stripe'],
           },
@@ -106,8 +106,8 @@ const subjects: Record<SubjectKey, SubjectContent> = {
             summary: 'A civic-focused tool designed to improve local civic engagement through easy access of polling information.',
             github: 'https://github.com/CS-422-Project-2/CivicZip',
             images: [
-              { src: '/Photos/CivicZip/CivicZip.png', alt: 'CivicZip concept image' },
-              { src: '/Photos/CivicZip/CivicZip2.png', alt: 'CivicZip concept image 2' },
+              { src: 'Photos/CivicZip/CivicZip.png', alt: 'CivicZip concept image' },
+              { src: 'Photos/CivicZip/CivicZip2.png', alt: 'CivicZip concept image 2' },
             ],
             tags: ['UX', 'Data', 'Public interest', 'API', 'Parsing', 'Docker', ],
           },
@@ -132,8 +132,8 @@ const subjects: Record<SubjectKey, SubjectContent> = {
             demo:'https://play.unity.com/en/games/01c9322b-8008-4bd0-8d07-5566c014b716/gravity-guy-full-game',
             videoPlaylist: 'https://www.youtube.com/playlist?list=PLexample',
             images: [
-              { src: '/Photos/SpaceGame/spg3.png', alt: 'Space game concept image' },
-              { src: '/Photos/SpaceGame/spg2.png', alt: 'Space game second concept image' },
+              { src: 'Photos/SpaceGame/spg3.png', alt: 'Space game concept image' },
+              { src: 'Photos/SpaceGame/spg2.png', alt: 'Space game second concept image' },
             ],
             tags: ['Unity', 'Gameplay loop', 'Prototype','Team project' ],
           },
@@ -202,7 +202,7 @@ const subjects: Record<SubjectKey, SubjectContent> = {
       {
         title: 'Shadows of Tokyo',
         description: 'Focus of the forms and feeling of Tokyo, Shot on my IPhone 16 pro',
-        basePath: '/Photos/ShadowsInJapan/Processed',
+        basePath: 'Photos/ShadowsInJapan/Processed',
         adobeLink: 'https://adobe.ly/4b3NTw8',
         headingStyle: 'font-family: Georgia, serif; color: #ffffff; font-size: 1.6rem; letter-spacing: 0.12em; text-transform: uppercase;',
         images: [
@@ -221,7 +221,7 @@ const subjects: Record<SubjectKey, SubjectContent> = {
             {
         title: 'Seattle Mist',
         description: 'My home',
-        basePath: '/Photos/Seattle/Processed',
+        basePath: 'Photos/Seattle/Processed',
         adobeLink: 'https://adobe.ly/4boV2Hw',
         headingStyle: 'font-family: "Times New Roman", Times, serif; color: #31bbc2; font-size: 2rem; letter-spacing: 0.2em;',
         images: [
