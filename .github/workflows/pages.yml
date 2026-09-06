@@ -29,13 +29,10 @@ jobs:
         run: npm ci
 
       - name: Build site (Vite)
-        env:
-          REPO_NAME: ${{ github.event.repository.name }}
         run: |
-          echo "Repository name: $REPO_NAME"
-          # Compile TS then build with Vite, set base to repository name so assets load correctly
+          # Compile TS then build with Vite — use vite.config.ts base setting for relative assets
           npx tsc
-          npx vite build --base "/${REPO_NAME}/"
+          npx vite build
 
       - name: Configure git for deploy
         run: |
