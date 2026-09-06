@@ -242,6 +242,33 @@ body[data-page='music'] .card {
 /* debug outline for hero visual area (can be removed) */
 .hero-visual.debug-outline { outline: 1px dashed rgba(255,255,255,0.12); }
 
+/* Responsive tweaks for mobile devices */
+@media (max-width: 720px) {
+  .page { padding: 12px; }
+  .topbar { padding: 8px; }
+  .nav { gap: 8px; }
+  .hero { grid-template-columns: 1fr; gap: 12px; }
+  .hero-visual { justify-content: center; padding-right: 0; }
+  .hero-float { width: 100px; max-height: 120px; transform: translateY(20px); }
+  .about-main { flex-direction: column; gap: 12px; }
+  .about-side { width: 100%; flex-direction: row; gap: 12px; }
+  .about-image-wrap img { height: 160px; object-fit: cover; }
+  .project-list { display: flex; flex-direction: column; gap: 12px; }
+  .project { display: flex; flex-direction: column; gap: 8px; }
+  .project-visual { margin-top: 8px; width: 100%; max-height: 140px; }
+  .project-gif { max-width: 140px; height: auto; }
+  .buttons { flex-direction: column; gap: 8px; }
+  .page-footer { font-size: 0.9rem; }
+}
+
+@media (max-width: 480px) {
+  .hero-float { width: 84px; max-height: 100px; transform: translateY(12px); }
+  .about-image-wrap img { height: 120px; }
+  .nav { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .button { padding: 8px 10px; font-size: 0.95rem; }
+  .card { padding: 12px; }
+}
+
 .hero-copy,
 .panel,
 .card {
