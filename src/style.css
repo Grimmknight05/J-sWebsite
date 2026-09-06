@@ -261,6 +261,21 @@ body[data-page='music'] .card {
   .page-footer { font-size: 0.9rem; }
 }
 
+/* Tighter mobile adjustments for model gallery and hero overlap */
+@media (max-width: 720px) {
+  .model-gallery-grid { grid-template-columns: 1fr; }
+  .model-collection { padding: 12px; }
+  .model-collection .model-viewer-shell { padding: 6px; }
+  .model-collection model-viewer { min-height: 220px; }
+  /* push the palm further down on small screens so it visually sits on the about card */
+  .hero-float { transform: translateY(64px); }
+}
+
+@media (max-width: 480px) {
+  .model-collection model-viewer { min-height: 180px; }
+  .hero-float { transform: translateY(48px); }
+}
+
 @media (max-width: 480px) {
   .hero-float { width: 84px; max-height: 100px; transform: translateY(12px); }
   .about-image-wrap img { height: 120px; }
