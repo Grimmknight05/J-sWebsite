@@ -202,7 +202,7 @@ const subjects: Record<SubjectKey, SubjectContent> = {
       {
         title: 'Shadows of Tokyo',
         description: 'Focus of the forms and feeling of Tokyo, Shot on my IPhone 16 pro',
-        basePath: 'Photos/ShadowsInJapan/Processed',
+        basePath: 'Photos/ShadowsInJapan/WaterMarked',
         adobeLink: 'https://adobe.ly/4b3NTw8',
         headingStyle: 'font-family: Georgia, serif; color: #ffffff; font-size: 1.6rem; letter-spacing: 0.12em; text-transform: uppercase;',
         images: [
@@ -221,7 +221,7 @@ const subjects: Record<SubjectKey, SubjectContent> = {
             {
         title: 'Seattle Mist',
         description: 'My home',
-        basePath: 'Photos/Seattle/Processed',
+        basePath: 'Photos/Seattle/WaterMarked',
         adobeLink: 'https://adobe.ly/4boV2Hw',
         headingStyle: 'font-family: "Times New Roman", Times, serif; color: #31bbc2; font-size: 2rem; letter-spacing: 0.2em;',
         images: [
