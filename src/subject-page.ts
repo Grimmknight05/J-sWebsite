@@ -103,7 +103,14 @@ const subjects: Record<SubjectKey, SubjectContent> = {
           },
           {
             title: 'CivicZip',
-            summary: 'A civic-focused tool designed to improve local civic engagement through easy access of polling information.',
+            summary: `
+              A civic-focused tool to improve local civic engagement by making polling and election information easy to find.
+              <ul>
+                <li><strong>What it does:</strong> Retrieves polling-location and election data and displays it on a custom Mapbox map.</li>
+                <li><strong>My role:</strong> Integrated the Civic Information API, parsed and normalized responses, and synchronized the data with the Mapbox frontend.</li>
+                <li><strong>Tech:</strong> Mapbox, REST APIs, JavaScript/TypeScript, Docker (deployment)</li>
+              </ul>
+            `,
             github: 'https://github.com/CS-422-Project-2/CivicZip',
             images: [
               { src: 'Photos/CivicZip/CivicZip.png', alt: 'CivicZip concept image' },
@@ -112,12 +119,18 @@ const subjects: Record<SubjectKey, SubjectContent> = {
             tags: ['UX', 'Data', 'Public interest', 'API', 'Parsing', 'Docker', ],
           },
           {
-            title: ' - Active Reading Assistant',
-            summary: 'A web based pdf viewer that walks the user through learning the SQ3R method of techincial document reading',
+            title: 'Active Reading Assistant',
+            summary: `
+              A web-based PDF study assistant that guides users through the SQ3R active-reading method (Survey, Question, Read, Recite, Review).
+              <ul>
+                <li><strong>What it does:</strong> Presents PDFs with step-by-step prompts, annotation tools, and comprehension checkpoints to improve retention.</li>
+                <li><strong>My role:</strong> Integrated the frontend with persistent user storage for notes and user accounts.</li>
+                <li><strong>Tech:</strong> Flask, Python, Docker</li>
+              </ul>
+            `,
             github: 'https://github.com/CS-422-Project/Active-Reading-Assistant',
-            images: [
-            ],
-            tags: ['UX', 'Data', 'Public interest', 'API', 'Parsing', 'Docker', ],
+            images: [],
+            tags: ['UX', 'Data', 'SRS', 'SDS', 'ConOps', 'Public interest', 'PDF', 'Accessibility', 'Docker'],
           },
         ],
       },
@@ -126,11 +139,20 @@ const subjects: Record<SubjectKey, SubjectContent> = {
         intro: 'Experimental gameplay builds, systems, and prototypes.',
         projects: [
           {
-            title: 'Space game',
-            summary: 'A Unity play demo with a short development log and project notes.',
+            title: 'Gravity Guy',
+            summary: `
+              <strong>Gameplay Designer & Programmer</strong>
+              <ul>
+                <li><strong>Gameplay systems:</strong> Led iterative prototyping and implemented core systems—player movement, jumping, inventory/tool-belt, health, status effects, cutscene camera, platformer mechanics, and enemy/obstacle behaviors using Unity and C#.</li>
+                <li><strong>Architecture:</strong> Designed modular, maintainable systems using abstract classes, component-based patterns, and event-channel communication.</li>
+                <li><strong>Features:</strong> Implemented physics-driven puzzles, level triggers, checkpoint/save systems, and world load/unload mechanics; tuned pacing and difficulty via playtesting.</li>
+                <li><strong>Collaboration:</strong> Co-led story development and the art pipeline within a 4-person team; ran playtest sessions and iterated on feedback.</li>
+                <li><strong>Tools:</strong> Unity, C#, Blender, Substance Painter, Git</li>
+              </ul>
+            `,
             github: 'https://github.com/Grimmknight05/CS480_Game',
-            demo:'https://play.unity.com/en/games/01c9322b-8008-4bd0-8d07-5566c014b716/gravity-guy-full-game',
-            videoPlaylist: 'https://www.youtube.com/playlist?list=PLexample',
+            demo: 'https://play.unity.com/en/games/01c9322b-8008-4bd0-8d07-5566c014b716/gravity-guy-full-game',
+            videoPlaylist: '',
             images: [
               { src: 'Photos/SpaceGame/spg3.png', alt: 'Space game concept image' },
               { src: 'Photos/SpaceGame/spg2.png', alt: 'Space game second concept image' },
