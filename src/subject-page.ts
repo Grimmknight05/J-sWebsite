@@ -154,8 +154,8 @@ const subjects: Record<SubjectKey, SubjectContent> = {
             demo: 'https://play.unity.com/en/games/01c9322b-8008-4bd0-8d07-5566c014b716/gravity-guy-full-game',
             videoPlaylist: '',
             images: [
-              { src: 'Photos/SpaceGame/spg3.png', alt: 'Space game concept image' },
-              { src: 'Photos/SpaceGame/spg2.png', alt: 'Space game second concept image' },
+              { src: 'Photos/SpaceGame/Processed/WaterMarked/spg3.jpg', alt: 'Space game concept image' },
+              { src: 'Photos/SpaceGame/Processed/WaterMarked/spg1.jpg', alt: 'Space game second concept image' },
             ],
             tags: ['Unity', 'Gameplay loop', 'Prototype','Team project' ],
           },
@@ -174,13 +174,13 @@ const subjects: Record<SubjectKey, SubjectContent> = {
       {
         title: 'Trailer / Clips',
         provider: 'Vimeo / YouTube',
-        description: 'Embed a trailer or short clips from your documentary work.',
+        description: '',
         url: '#clips',
       },
       {
         title: 'Featured Documentary',
         provider: 'YouTube',
-        description: 'Highlight the main documentary piece with a short summary.',
+        description: '',
         url: '#documentary',
       },
     ],
@@ -192,7 +192,7 @@ const subjects: Record<SubjectKey, SubjectContent> = {
       },
       {
         title: 'Other Projects',
-        description: 'Additional video work that expands beyond the main documentary.',
+        description: '',
         link: '#other-videos',
       },
     ],

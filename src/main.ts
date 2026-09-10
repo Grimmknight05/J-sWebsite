@@ -39,7 +39,7 @@ if (pageKey) {
           <div class="about-main">
             <div class="about-side">
               <div class="about-image-wrap">
-                <img src="20260730_025211596_iOS.jpeg" alt="Josh standing in a Japanese street scene" />
+                <img src="Photos/m/canvas.jpg" alt="Josh standing in a Japanese street scene" />
               </div>
               <div class="buttons about-buttons">
                 <a class="button primary" href="coding.html">See my coding work</a>
