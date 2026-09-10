@@ -39,7 +39,7 @@ if (pageKey) {
           <div class="about-main">
             <div class="about-side">
               <div class="about-image-wrap">
-                <img src="Photos/m/canvas.jpg" alt="Josh standing in a Japanese street scene" />
+                <img src="Photos/m/canvas.jpg" alt="Josh standing infront of waterfall" />
               </div>
               <div class="buttons about-buttons">
                 <a class="button primary" href="coding.html">See my coding work</a>
@@ -50,7 +50,7 @@ if (pageKey) {
             <div class="about-copy">
               <h2>About me</h2>
               <p>Hey, welcome to my portfolio! My name is Joshua but everyone calls my Josh. I’m a Senior at the University of Oregon studying computer science. I’ve always been passionate about creating things, when I was little that looked like building Legos. I found early on that software development lets me channel that love into experiences that other people can use and feel.</p>
-              <p>I’m a social person who enjoys working with others, especially as part of a team where I can collaborate with other great problem solvers and share creative process.</p>
+              <p>I’m a social person who enjoys working with others, especially as part of a team where I can collaborate with other great problem solvers and share in creative process.</p>
               <p class="panel-title">Primary focuses</p>
               <ul>
                 <li>Software Development</li>

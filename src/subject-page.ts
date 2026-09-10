@@ -93,13 +93,13 @@ const subjects: Record<SubjectKey, SubjectContent> = {
         projects: [
           {
             title: 'Full-Stack Website Development for Subscription Service',
-            summary: 'Developed and built out a complete website and backend infrastructure for a subscription-based service that had been awarded funding. Implemented a React frontend with a Supabase backend for account management and a Stripe payment integration, using webhooks to ensure synchronization, security, and component decoupling. <br><br> I leveraged AI-assisted development to maintain code quality and architectural best practices, prioritizing strong decoupling and high cohesion throughout the codebase. Achieved 90% code coverage through comprehensive testing, including backend unit tests, account creation and authentication flows, payment processing tests, and frontend UI stress tests using dummy subscription data. <br><br> - Key features implemented: include user signup and login, password reset via email, user information management, payment processing, and subscription cancellation—all with real-time synchronization between Stripe and Supabase servers to ensure account integrity. ',
+            summary: 'Developed and built out a complete website and backend infrastructure for a subscription-based service that had been awarded funding. Implemented a React frontend with a Supabase backend for account management and a Stripe payment integration, using webhooks to ensure synchronization, security, and component decoupling. <br><br> I leveraged AI-assisted development to maintain code quality and architectural best practices, prioritizing strong decoupling and high cohesion throughout the codebase. Achieved 94.32% code coverage through comprehensive testing, including backend unit tests, account creation and authentication flows, payment processing tests, and frontend UI stress tests using dummy subscription data. <br><br> - Key features implemented: include user signup and login, password reset via email, user information management, payment processing, and subscription cancellation—all with real-time synchronization between Stripe and Supabase servers to ensure account integrity. ',
             emailContact: '',
             images: [
               { src: 'Photos/Website/S1.png', alt: 'Website Login Error' },
               { src: 'Photos/Website/S2.png', alt: 'Website Signin Page' },
             ],
-            tags: ['Vite', 'TypeScript', 'Portfolio', 'react', 'Webhook', 'Git', 'Testing', 'Backend Development', 'stripe'],
+            tags: ['Vite', 'TypeScript', 'react', 'Webhook', 'Git', 'Testing', 'Backend Development', 'stripe'],
           },
           {
             title: 'CivicZip',
@@ -128,7 +128,7 @@ const subjects: Record<SubjectKey, SubjectContent> = {
                 <li><strong>Tech:</strong> Flask, Python, Docker</li>
               </ul>
             `,
-            github: 'https://github.com/CS-422-Project/Active-Reading-Assistant',
+            github: '',
             images: [],
             tags: ['UX', 'Data', 'SRS', 'SDS', 'ConOps', 'Public interest', 'PDF', 'Accessibility', 'Docker'],
           },
