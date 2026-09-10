@@ -441,6 +441,16 @@ h2 {
   box-shadow: 4px 4px 0 #1f1033;
 }
 
+/* Small inline GIF used next to compact button text */
+.info-ex {
+  display: inline-block;
+  width: 1em; /* roughly the size of the surrounding text */
+  height: 1em;
+  margin-left: 0.35em;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
 .button.primary {
   background: rgb(222, 85, 85);
   color: #fff;

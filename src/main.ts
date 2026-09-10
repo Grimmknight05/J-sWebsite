@@ -42,7 +42,7 @@ if (pageKey) {
                 <img src="Photos/m/canvas.jpg" alt="Josh standing infront of waterfall" />
               </div>
               <div class="buttons about-buttons">
-                <a class="button primary" href="coding.html">See my coding work</a>
+                <a class="button primary" href="coding.html">See my coding work <img class="info-ex" src="Resources/Gifs/InfoEX.gif" alt="info" /></a>
                 
                 <a class="button link" href="https://linkedin.com/in/joshuahenrikson" target="_blank" rel="noopener">LinkedIn</a>
               </div>
