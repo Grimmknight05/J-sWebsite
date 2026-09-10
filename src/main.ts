@@ -50,7 +50,7 @@ if (pageKey) {
             <div class="about-copy">
               <h2>About me</h2>
               <p>Hey, welcome to my portfolio! My name is Joshua but everyone calls my Josh. I’m a Senior at the University of Oregon studying computer science. I’ve always been passionate about creating things, when I was little that looked like building Legos. I found early on that software development lets me channel that love into experiences that other people can use and feel.</p>
-              <p>I’m a social person who enjoys working with others, especially as part of a team where I can collaborate with other great problem solvers and share in creative process.</p>
+              <p>I’m a social person who enjoys working with others, especially as part of a team where I can collaborate with other great problem solvers and share in creative process. Outside of code, I love exploring other creative outlets too — from documentary filmmaking and photography to 3D modeling and music production.</p>
               <p class="panel-title">Primary focuses</p>
               <ul>
                 <li>Software Development</li>
